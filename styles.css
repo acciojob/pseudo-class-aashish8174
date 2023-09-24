@@ -3,12 +3,12 @@
 	 margin:20px
 }
 #container::after {
-    content: "Before Content";
+    content: "After Element";
    font-size:20px;
 	color:#f00;
 }
 #container::before{
-    content: "After Content";
+    content: "Before Element";
    font-size:20px;
 	color:#f00;
 }
